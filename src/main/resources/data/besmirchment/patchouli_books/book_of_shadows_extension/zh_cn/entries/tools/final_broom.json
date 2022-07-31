@@ -1,0 +1,19 @@
+{
+  "category": "bewitchment:tools",
+  "name": "终极多合一扫帚",
+  "icon": "besmirchment:final_broom",
+  "entry_color": "C15600",
+  "flag": "bsm_final_broom",
+  "advancement": "bewitchment:hidden_unlocks/demon_heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "终极多合一扫帚是所有扫帚里最厉害的。$(br)通过将四个基础$(l:bewitchment:tools/brooms)扫帚$()与一个下界之星和四种基本元素相结合，你可以获得最快的扫帚。$(br)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "besmirchment:final_broom",
+      "text": "除了速度快之外，这把扫帚还会对骑着它的人施加抗性提升。$(br)$(l:bewitchment:sigils/using_sigils)符文$()也可以应用于它。"
+    }
+  ]
+}

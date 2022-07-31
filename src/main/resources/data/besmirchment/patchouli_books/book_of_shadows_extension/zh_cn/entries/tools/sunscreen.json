@@ -1,0 +1,19 @@
+{
+  "category": "bewitchment:tools",
+  "name": "吸血鬼防晒剂",
+  "icon": "besmirchment:vampire_sunscreen",
+  "entry_color": "C15600",
+  "flag": "bsm_sunscreen",
+  "advancement": "bewitchment:hidden_unlocks/demon_heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "事实证明，烈日的怒火对$(l:bewitchment:creatures/vampire)吸血鬼$()来说是一个极为可怕的不便。值得庆幸的是，有一个解决方案。$(br)吸血鬼防晒剂在使用时会反射吸血鬼照到的所有太阳光线，从而使它们轻微闪烁。$(br)尽管如此，阳光仍然会削弱吸血鬼。"
+    },
+    {
+      "type": "bewitchment:oil",
+      "recipe": "besmirchment:oil_crafting/sunscreen",
+      "text": "吸血鬼防晒剂是使用$(l:bewitchment:tools/witch_cauldron)女巫釜锅$()制作的。一剂持续约三分钟。"
+    }
+  ]
+}

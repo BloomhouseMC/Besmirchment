@@ -1,0 +1,20 @@
+{
+  "category": "bewitchment:brewing",
+  "name": "爱",
+  "icon": "minecraft:rose_bush",
+  "entry_color": "C15600",
+  "flag": "bsm_love_potion",
+  "advancement": "bewitchment:hidden_unlocks/altars",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这种药水会影响动物和村民。在这种药水效果下，受影响的实体将愿意繁殖，尽管正常的繁殖冷却仍然适用。此外，几乎所有在这种药水效果下的东西，理论上都可以绑定为$(l:bewitchment:rituals/binding)魔宠$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "爱",
+      "item": "minecraft:rose_bush",
+      "text": "下边喷水了"
+    }
+  ]
+}

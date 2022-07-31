@@ -1,0 +1,18 @@
+{
+  "category": "bewitchment:creatures",
+  "name": "吸血狼人",
+  "icon": "besmirchment:werepyre_spawn_egg",
+  "entry_color": "C15600",
+  "flag": "bsm_werepyres_spawn",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这种$(l:bewitchment:creatures/vampire)吸血鬼$()和$(l:bewitchment:creatures/werewolf)狼人$()的可怕后代在满月的时候会在针叶林、森林和冰雪生物群落生成。$(br)由于它们体型较大，尽管有翅膀也不能自由飞行，不过它们可以用翅膀甩向它们的猎物，通常是人形的。$(br)吸血狼人只在满月时出现，并在天亮时变回非兽形。$()"
+    },
+    {
+      "type": "entity",
+      "entity": "besmirchment:werepyre",
+      "offset": 0.1
+    }
+  ]
+}

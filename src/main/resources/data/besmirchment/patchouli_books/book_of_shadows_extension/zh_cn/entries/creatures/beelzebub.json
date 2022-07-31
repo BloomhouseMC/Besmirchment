@@ -1,0 +1,33 @@
+{
+  "category": "bewitchment:creatures",
+  "name": "巴力西卜",
+  "icon": "besmirchment:beelzebub_spawn_egg",
+  "advancement": "bewitchment:hidden_unlocks/demon_heart",
+  "flag": "bsm_beelzebub",
+  "extra_recipe_mappings": {
+    "besmirchment:scroll_of_torment": 2
+  },
+  "entry_color": "C15600",
+  "pages": [
+    {
+      "type": "text",
+      "text": "巴力西卜，是第一个从坑里污出来又污回去的，是$(l:besmirchment:creatures/werepyre)吸血狼人$()的守护神。$(br)它们可以被$(l:bewitchment:tools/grotesque_stew)宣誓$()于，以完全控制$(l:bewitchment:curses/conducting_curses)诅咒$()。$(br)你也可以向巴力西卜提供$(l:bewitchment:introduction/crops)大蒜面包$()，使你拜托狼人病的困扰。%(br2)召唤巴力西卜的方式将在本条目中概述。"
+    },
+    {
+      "type": "entity",
+      "entity": "besmirchment:beelzebub",
+      "offset": 0.2
+    },
+    {
+      "type": "spotlight",
+      "item": "besmirchment:scroll_of_torment",
+      "title": "召唤巴力西卜",
+      "text": "要召唤巴力西卜，你需要获得一个荼毒卷轴。在晚上对猪使用此卷轴。为此，你将需要你大部分的ME，并且你可能希望为接下来发生的事情穿上污渍法师盔甲"
+    },
+    {
+      "type": "crafting",
+      "recipe": "besmirchment:scroll_of_torment",
+      "text": "召唤巴力西卜的地点可灵活选择，所以放聪明点。你将需要把巴力西卜留在身边。"
+    }
+  ]
+}

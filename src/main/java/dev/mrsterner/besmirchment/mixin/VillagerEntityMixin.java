@@ -51,13 +51,13 @@ public abstract class VillagerEntityMixin extends MerchantEntity implements Vill
     @Inject(method = "tick", at = @At("TAIL"))
     private void tick(CallbackInfo callbackInfo) {
         if (!world.isClient && storedWerepyre != null) {
-            if (despawnTimer > 0) {
+            if (!this.hasCustomName() && despawnTimer > 0) {
                 despawnTimer--;
                 if (despawnTimer == 0) {
                     remove(RemovalReason.DISCARDED);
                 }
             }
-            if (age % 20 == 0 && world.isNight() && BewitchmentAPI.getMoonPhase(world) == 0 && world.isSkyVisible(getBlockPos())) {
+            if (age % 20 == 0 && world.isNight() && BewitchmentAPI.getMoonPhase(world) == 0 && (this.hasCustomName() || this.world.isSkyVisible(this.getBlockPos()))) {
                 WerepyreEntity entity = BSMEntityTypes.WEREPYRE.create(world);
                 if (entity != null) {
                     PlayerLookup.tracking(this).forEach(player -> SpawnSmokeParticlesPacket.send(player, this));
@@ -70,7 +70,7 @@ public abstract class VillagerEntityMixin extends MerchantEntity implements Vill
                     getStatusEffects().forEach(entity::addStatusEffect);
                     BWComponents.CURSES_COMPONENT.get(entity).getCurses().clear();
                     BWComponents.CURSES_COMPONENT.get(this).getCurses().forEach((BWComponents.CURSES_COMPONENT.get(entity))::addCurse);
-                    if (despawnTimer >= 0) {
+                    if (!entity.hasCustomName() && despawnTimer >= 0) {
                         despawnTimer = 2400;
                     }
                     entity.storedVillager = writeNbt(new NbtCompound());

@@ -134,7 +134,7 @@ public class WerepyreEntity extends BWHostileEntity {
             }
         }
 
-        if (spawnReason == SpawnReason.NATURAL) {
+        if (spawnReason == SpawnReason.NATURAL || spawnReason == SpawnReason.SPAWN_EGG) {
             storedVillager = EntityType.VILLAGER.create((World) world).writeNbt(new NbtCompound());
         }
         return data;
@@ -157,12 +157,18 @@ public class WerepyreEntity extends BWHostileEntity {
     public void readCustomDataFromNbt(NbtCompound tag) {
         super.readCustomDataFromNbt(tag);
         setLastJumpTime(tag.getInt("LastJumpTicks"));
+        if (tag.contains("StoredVillager")) {
+            storedVillager = tag.getCompound("StoredVillager");
+        }
     }
 
 
     public void writeCustomDataToNbt(NbtCompound tag) {
         super.writeCustomDataToNbt(tag);
         tag.putInt("LastJumpTicks", getLastJumpTime());
+        if (storedVillager != null) {
+            tag.put("StoredVillager", storedVillager);
+        }
     }
 
     @Override
@@ -234,4 +240,6 @@ public class WerepyreEntity extends BWHostileEntity {
             setVelocity(vec3d2.x, vec3d2.y, vec3d2.z);
         }
     }
+
+
 }

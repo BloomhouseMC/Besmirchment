@@ -1,0 +1,58 @@
+{
+  "category": "bewitchment:creatures",
+  "name": "非常规魔宠",
+  "icon": "minecraft:villager_spawn_egg",
+  "flag": "bsm_universal_familiars",
+  "entry_color": "C15600",
+  "advancement": "bewitchment:hidden_unlocks/demon_heart",
+  "pages": [
+    {
+      "type": "text",
+      "text": "通过使用$(l:besmirchment:brewing/love)爱情药水$()并施放$(l:bewitchment:rituals/binding)绑定$()仪式，你可以强制使用非常规的魔宠。$(br)这些魔宠通常不会带来帮助巫术的非凡力量，不过它们确实能提供一些好处。"
+    },{
+      "type": "text",
+      "text": "这种被迫的魔宠通常不会屈服于主人的意志。一般来说，强迫任何东西成为魔宠是一个可怕的想法，你真的$(o)不$()应该这样做。$(br)无论如何，这里会列出一些非常规的魔宠。"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:villager",
+      "text": "与村民绑定将安排异教婚姻。"
+    },
+    {
+      "type": "text",
+      "text": "这是一个非常有仪式感的行为，所以一定要穿着得体！$(br)与村民结婚后，其他村民几乎不会看不起你。大多数对声誉的损害都会大大减少，因此你可能更容易成为受欢迎的人。"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:chicken",
+      "scale": 0.6,
+      "text": "与鸡绑定可以让你在潜行时下蛋并缓降。"
+    },{
+      "type": "entity",
+      "entity": "minecraft:pig",
+      "scale": 0.6,
+      "text": "有了猪魔宠，食物会给你buff。你也会掉落$(item)猪排$()。"
+    },{
+      "type": "entity",
+      "entity": "minecraft:sheep",
+      "scale": 0.6,
+      "text": "羊魔宠可以让你在饿的时候按$(k:besmirchment.familiar_ability)来吃草。"
+    },{
+      "type": "entity",
+      "entity": "minecraft:parrot",
+      "scale": 0.6,
+      "text": "鹦鹉学舌者可以使用他们的主动魔宠能力，在一段时间内扮演成另一个玩家。"
+    },{
+      "type": "entity",
+      "entity": "minecraft:cow",
+      "scale": 0.6,
+      "text": "在拿着一个$(item)空桶$()时按$(k:besmirchment.familiar_ability)，看看这个奇妙的魔宠能干啥！"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:llama",
+      "scale": 0.6,
+      "text": "羊驼魔宠让你可以吐口水，转移你所有的负面药水效果。"
+    }
+  ]
+}

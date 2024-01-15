@@ -1,0 +1,18 @@
+{
+  "category": "bewitchment:tools",
+  "name": "精英棺材",
+  "icon": "besmirchment:elite_coffin",
+  "entry_color": "C15600",
+  "flag": "bsm_elite_coffin",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)精英棺材$()是唯一适合最真挚的女巫的$(l:bewitchment:tools/coffins)棺材$()。它利用原始色彩的力量，在其周围召唤出魔法般的光芒。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "besmirchment:elite_coffin",
+      "text": "终于啊，RGB棺材！"
+    }
+  ]
+}

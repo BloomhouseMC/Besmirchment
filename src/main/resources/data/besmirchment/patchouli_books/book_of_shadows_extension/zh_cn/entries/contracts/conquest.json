@@ -1,0 +1,13 @@
+{
+  "category": "bewitchment:contracts",
+  "name": "征服",
+  "icon": "bewitchment:demonic_contract",
+  "advancement": "bewitchment:hidden_unlocks/demon_horn",
+  "entry_color": "C15600",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "被遗忘的征服骑士参战，但用弓。在此契约下，你受到的弹射物伤害加倍。"
+    }
+  ]
+}

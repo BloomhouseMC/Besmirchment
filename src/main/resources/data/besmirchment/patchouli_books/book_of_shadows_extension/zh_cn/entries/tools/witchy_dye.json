@@ -1,0 +1,26 @@
+{
+  "category": "bewitchment:tools",
+  "name": "巫术染料",
+  "icon": "besmirchment:witchy_dye{Color:15479455}",
+  "entry_color": "C15600",
+  "flag": "bsm_witchy_dye",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "只需将一些$(l:bewitchment:brewing/elemental_oils)海洋蜡膏$()与$(item)染料$()混合，就可以制作出方便的可投掷染料。$(br)这种巫术染料主要用于给穿在身上的装备染色，但它也可以用来给$(l:bewitchment:creatures/werewolf)狼人$()染色。"
+    },
+    {
+      "type": "bewitchment:oil",
+      "recipe": "besmirchment:oil_crafting/witchy_bleach",
+      "text": "要制作巫术染料，首先要在$(l:bewitchment:tools/witch_cauldron)女巫釜锅$()中酿造巫术漂灵剂。$(br)你可以在酿造过程中加点染料来给它添加点染色特性，否则它将充当漂灵剂去除颜色。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "以下$(l:bewitchment:rituals/rituals)仪式$()将随机给加入其中的漂灵剂染色。$(br)请注意，要染色的漂白剂需要在仪式开始后添加。"
+    },{
+      "type": "bewitchment:ritual",
+      "recipe": "besmirchment:rituals/color_typhoon",
+      "text": "真绚丽。"
+    }
+  ]
+}

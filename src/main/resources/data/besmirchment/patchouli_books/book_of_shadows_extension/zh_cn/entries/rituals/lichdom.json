@@ -1,0 +1,43 @@
+{
+  "category": "bewitchment:rituals",
+  "name": "成为巫妖",
+  "icon": "besmirchment:lich_gem",
+  "entry_color": "C15600",
+  "advancement": "bewitchment:hidden_unlocks/demon_heart",
+  "flag": "bsm_lichdom",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "万岁！终于，不朽终于来了：$(br2)这个$(l:bewitchment:rituals/rituals)仪式$()允许施放者或最接近它的玩家达到一个更高的死亡状态（或者说不朽状态？）$(br)这个状态被称为巫妖。$(br)它的定义是将身体与外部的魂匣绑定，从而提供更高的灵魂供应。没有魂匣的巫妖说实话挺无能的。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "besmirchment:phylactery",
+      "text": "魂匣中的灵魂数量与巫妖的力量成正比，如$(l:besmirchment:rituals/lichdom#quirks)巫妖轶事$()中所述，它使用巫妖宝石填充。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "besmirchment:lich_gem",
+      "text": "巫妖宝石在制作魂匣时配套出现。$(br)你将需要在杀死一个纯洁的生物（通常是村民）时副手拿着它。$(br)对魂匣使用存灵的巫妖宝石来填充它。"
+    },
+    {
+      "type": "bewitchment:ritual",
+      "recipe": "besmirchment:rituals/reach_lichdom",
+      "text": "开始这个仪式需要没有灵魂，或者，简而言之，受到$(l:bewitchment:curses/apathy)顽钝$()诅咒。$(br)它还需要一个恶魔实体的牺牲。"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "quirks",
+      "title": "巫妖轶事",
+      "text": "巫妖有几个值得注意的事。$(br)首先，只要他们的魂匣保持完好，巫妖就不会死。当被杀死时，他们会在原地重生，并从魂匣中消耗一个灵魂。$(br)话虽如此，一次只有一个魂匣能立起来（尝试放置一个新的会导致前一个被打破）。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "魂匣中灵魂很少的巫妖通常非常虚弱，但他们聚集的灵魂越多，他们的力量就会越强。$(br)有了足够的灵魂，他们甚至可以化身为幽灵！这种形态是ME密度非常大的，但是仍然能够穿过方块。它也可以使用$(l:besmirchment:tools/witchy_dye)巫术染料$()染色。要呈现你的幽灵形态，请按[ $(k:bewitchment.transformation_ability) ]"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "最后，巫妖被认为是不死生物，许多生物可能会逃离他们。这也意味着他们怕$(l:bewitchment:intro/silver)银$()。当被它杀死时，他们会立即被送回他们的魂匣，吸取两个灵魂，并且不会被复活。$(br2)$(o)当被快速连续复活时，巫妖也可以通过潜行的方式自愿地回到他们的魂匣。$(br2)巫妖算作一种变身，所以巫妖不能变成吸血鬼、狼人等。$()"
+    }
+  ]
+}

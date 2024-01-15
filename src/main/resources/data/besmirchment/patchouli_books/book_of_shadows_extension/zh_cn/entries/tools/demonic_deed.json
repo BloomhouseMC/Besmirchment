@@ -1,0 +1,20 @@
+{
+  "category": "bewitchment:tools",
+  "name": "恶魔契约",
+  "icon": "besmirchment:demonic_deed",
+  "entry_color": "C15600",
+  "flag": "bsm_tamable_demons",
+  "advancement": "besmirchment:demonic_deed",
+  "hidden": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这个污渍认证表明你已经杀死了$(l:besmirchment:creatures/beelzebub)巴力西卜$()...可能吧。$(br)它可以使用$(l:bewitchment:tools/taglock)巫媒$()签署。$(br)签署的恶魔契约反过来可以用来让它所绑定的人驯服$(l:bewitchment:creatures/demon)恶魔$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "besmirchment:demonic_deed",
+      "text": "驯服的$(l:bewitchment:creatures/demon)恶魔$()行为很像狼，它们会在战斗中帮助你。$(br)它们可以被命令留在自己的位置或者跟随你，并且仍然会提供它们的交易。$(br)此外，它们可以喂蛋糕来恢复健康。"
+    }
+  ]
+}

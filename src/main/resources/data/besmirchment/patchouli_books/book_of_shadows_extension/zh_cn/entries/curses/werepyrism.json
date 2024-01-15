@@ -1,0 +1,18 @@
+{
+  "category": "bewitchment:curses",
+  "name": "吸血狼人化",
+  "icon": "bewitchment:garlic_bread",
+  "entry_color": "C15600",
+  "advancement": "bewitchment:hidden_unlocks/demon_heart",
+  "flag": "bsm_werepyrism",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "吸血狼人是由$(l:bewitchment:curses/lycanthropy)狼人病$()与$(l:bewitchment:curses/vampirism)吸血者$()结合而成的混合$(l:bewitchment:curses/conducting_curses)诅咒$()。$(br)$(l:besmirchment:creatures/werepyre)吸血狼人$()的症状和其他两种相同，不过它们不能以兽形飞行。不过，它们能够大力拍打翅膀。由于它们的精神外表是狼人的而不是吸血鬼的，所以太阳不会在它们处于人类形态时灼伤它们，不过仍然会削弱它们的力量。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "有两种方法可以成为$(l:besmirchment:creatures/werepyre)吸血狼人$()：$(li)被一个吸血狼人感染，就像你为了得到$(l:bewitchment:curses/lycanthropy)狼人病$()诅咒时那样的条件，或者$(li1)被$(l:bewitchment:creatures/vampire)吸血鬼$()感染，就像你为了得到$(l:bewitchment:curses/vampirism)吸血者$()诅咒时那样的条件，但是在狼人状态被感染。$(br2)你也许应该为想要这个而感到羞愧。"
+    }
+  ]
+}
